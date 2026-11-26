@@ -1,0 +1,21 @@
+{
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac -d $dir/bin $fileName && java -cp $dir/bin $fileNameWithoutExt"
+    }
+    // "code-runner.executorMap": {
+    //     "java.project.outputPath": "bin"
+    // }
+    // "code-runner.executorMap": {
+    //     "java.project.outputPath": "cd $dir && javac -d $dir/bin $fileName && java -cp $dir/bin $fileNameWithoutExt"
+    // }
+    // "code-runner.executorMap": {
+    //     "java": "cd $dir && javac -d $dir\\bin $fileName && java -cp $dir\\bin $fileNameWithoutExt"
+    // },
+    // "code-runner.runInTerminal": true,
+    // "terminal.integrated.defaultProfile.windows": "Command Prompt"
+    // "code-runner.executorMap": {
+    //     "java": "cd /d \"$dir\" && if not exist \"bin\" mkdir \"bin\" && javac -d \"bin\" \"$fileName\" && java -cp \"bin\" \"$fileNameWithoutExt\""
+    // },
+    // "code-runner.runInTerminal": true,
+    // "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
